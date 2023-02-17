@@ -1,0 +1,7 @@
+.no_output {
+  opacity: 0.5;
+  font-size: larger;
+  width: 100%;
+  text-align: center;
+  transform: translateY(20%);
+}

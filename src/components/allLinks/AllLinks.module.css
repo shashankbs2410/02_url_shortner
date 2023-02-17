@@ -1,0 +1,80 @@
+.all_links {
+  text-align: center;
+  overflow-y: scroll;
+  margin-top: 10px;
+  height: 550px;
+  width: 75%;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+}
+
+.back_button {
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: black;
+  border: #f7901d;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.back_button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.back_button:active {
+  opacity: 1;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.label {
+  color: white;
+  display: block;
+  margin: auto 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.links {
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 80%;
+  margin: 5px auto;
+  padding: 5px 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.link {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 1px;
+  border-radius: 5px;
+  width: 80%;
+}
+
+.copy_button {
+  margin-left: 10px;
+  background-color: white;
+  border: white;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.copy_button:hover {
+  cursor: pointer;
+}
+
+.copy_button:active {
+  background-color: rgba(0, 0, 0, 0.2);
+}

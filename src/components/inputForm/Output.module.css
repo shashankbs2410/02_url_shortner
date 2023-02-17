@@ -1,0 +1,37 @@
+.heading {
+  margin: 10px;
+}
+
+.link {
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.link:hover {
+  cursor: text;
+}
+
+.copy_button {
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: grey;
+  border: grey;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  color: white;
+  position: absolute;
+  right: 60px;
+}
+
+.copy_button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.copy_button:active {
+  background-color: black;
+}

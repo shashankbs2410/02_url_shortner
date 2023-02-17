@@ -1,0 +1,52 @@
+.body {
+  background-color: white;
+  width: 40%;
+  height: 430px;
+  text-align: center;
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 40px auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 50px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.email {
+  margin: 10px auto;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  width: 70%;
+  border-radius: 5px;
+}
+
+.email:hover {
+  cursor: text;
+}
+
+.copy_button {
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 4px;
+  border-radius: 3px;
+  background-color: grey;
+  border: grey;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  margin-right: 10px;
+  color: white;
+}
+
+.copy_button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.copy_button:active {
+  background-color: black;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");

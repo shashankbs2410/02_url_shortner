@@ -1,0 +1,82 @@
+.interface {
+  background-color: white;
+  width: 40%;
+  height: 430px;
+  text-align: left;
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 40px auto;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 50px;
+}
+
+.label {
+  display: block;
+  margin: 5px 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.input {
+  margin: 10px 10px;
+  width: 60%;
+  height: 33px;
+  border-width: thin;
+  border-radius: 5px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.error {
+  color: red;
+  margin: 10px;
+}
+
+.submit_button {
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f7901d;
+  border: #f7901d;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.submit_button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.submit_button:active {
+  opacity: 1;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.clear_button {
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: black;
+  border: #f7901d;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  margin-right: 10px;
+  color: white;
+}
+
+.clear_button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.clear_button:active {
+  opacity: 1;
+  box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.loading {
+  margin: 10px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");

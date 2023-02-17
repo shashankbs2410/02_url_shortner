@@ -1,0 +1,16 @@
+.login_button {
+  margin: auto 0px;
+  font-family: "Poppins", "Calibri", Arial, Helvetica, sans-serif;
+  padding: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900");

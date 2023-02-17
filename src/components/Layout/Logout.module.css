@@ -1,0 +1,29 @@
+.logout_button {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  background-color: black;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  text-align: right;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding-right: 35px;
+}
+
+.logout_button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.google_logo {
+  height: 20px;
+  margin: auto 5px;
+  position: absolute;
+  left: 35px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
